@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verma Fitness</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Baloo+Bhai+2&family=Dancing+Script&family=Shizuru&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            color: white;
+            padding: 0;
+            margin: 0;
+
+            background: url(img/man.jpg);
+        }
+
+         .left {
+            position: absolute;
+            left: 30px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid rgb(29, 204, 73); */
+
+
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            /* border: 2px solid rgb(75, 11, 134); */
+            margin: 20px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            display: inline-block;
+            /* border: 2px solid rgb(182, 28, 28); */
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 14px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+            font-weight: bold;
+        }
+
+        .left img {
+            width: 69px;
+            padding-left: 22px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+            font-size: 19px;
+            line-height: 16px;
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 11px 10px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 17px;
+        }
+
+        .btn:hover {
+            color: rgb(196, 192, 192);
+        }
+
+        .container {
+            border: 2px solid rgb(250, 247, 247);
+            margin: 114px 57px;
+            padding: 60px 40px;
+            width: 42%;
+            border-radius: 31px;
+        }
+
+        .formgroup input {
+            font-family: 'Baloo Bhai 2', cursive;
+            display: block;
+            padding: 3px;
+            border: 2px solid black;
+            margin: 9px auto;
+            width: 357px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 11px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 361px;
+            margin: 29px auto;
+            background-color: black;
+        } 
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/fit.png" alt="">
+            <div><strong>Verma Fitness</strong></div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About us</a> </li>
+                <li> <a href="#">Fitness services</a> </li>
+                <li> <a href="#">Contact</a> </li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Rewa now</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your Locality">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your Emai id">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Name" placeholder="Enter your Phone number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
